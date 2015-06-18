@@ -1,0 +1,47 @@
+.vcenter {
+    color: #83888C;
+    position: relative;
+    top: 20%;  
+    transform: translateY(-10%);
+}
+#text {
+    background-color:#1E2327;
+    height: 100vh;
+    text-align: center;
+    
+}
+#pics {
+	background-color: #E8A904;
+	height: 100vh;
+}
+
+#middle {
+	background-image: url('http://i429.photobucket.com/albums/qq11/chansoriyashivali/Foto1_zpsnsdv6ymx.jpg');
+  background-size: 100% 100%;
+  height: 100vh;
+}
+#logo {
+  max-width:20%;
+  max-height:20%;
+  float: left;
+  margin:0 1em 2em 0;
+}
+
+h3 {
+	margin: 0 8em 0 3em;
+	text-align: left;
+}
+p{
+	font-size: 0.9vw;
+	text-align: left;
+	margin: 0 8em 0 6em;
+	
+}
+img {
+	max-width: 92%;
+	max-height: 80%;
+	position: relative;
+	top: 10%;
+	float: center;
+}
+
