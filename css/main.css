@@ -1,7 +1,7 @@
 .vcenter {
   color: #83888C;
   position: relative;
-  top: 20%;  
+  top: 10%;  
   transform: translateY(-10%);
 }
 
@@ -16,7 +16,7 @@ button {
 		font-weight: 600;
 	}
 .line {
-  max-height:10%;
+  max-height:1%;
   max-width:14%;
   margin: 0 0 0 8em;
 }
@@ -27,8 +27,8 @@ hr {
 
 .carousel-indicators {
   position: absolute;
-  top: 180px;
-  left: 22%;
+  top: 130px;
+  left: 24%;
   z-index: 15;
   width: 60%;
   padding-left: 0;
