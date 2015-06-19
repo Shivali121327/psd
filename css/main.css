@@ -21,6 +21,12 @@
 	  top: 20%;  
 	  transform: translateY(-10%);
 }
+
+#last_img {
+  position:relative;
+  top:20%;
+  max-height:60%;
+}
 #text {
 	background-color:#1E2327;
 	height: 100vh;
