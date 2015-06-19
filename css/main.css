@@ -5,6 +5,26 @@
   transform: translateY(-10%);
 }
 
+button {
+		margin: 1em 20em 0 0;
+		padding: 7px 7px;
+		border-radius: 3px;
+		border: 2px solid #83888C;
+		background-color: #1E2327;
+		outline:none;
+		color: #83888C;
+		font-weight: 600;
+	}
+.line {
+  max-height:10%;
+  max-width:14%;
+  margin: 0 0 0 8em;
+}
+hr {
+  border: 1px solid #697B8C;
+}
+
+
 .carousel-indicators {
   position: absolute;
   top: 180px;
@@ -24,7 +44,7 @@
 
 #last_img {
   position:relative;
-  top:20%;
+  top:15%;
   max-height:60%;
 }
 #text {
