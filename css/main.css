@@ -2,6 +2,7 @@
   color: #83888C;
   position: relative;
   top: 10%;  
+  left:80px;
 }
 header.active {
   left:0;
@@ -58,7 +59,7 @@ hr {
 .carousel-indicators {
   position: absolute;
   top: 130px;
-  left: 24%;
+  left: 38%;
   z-index: 15;
   width: 60%;
   padding-left: 0;
