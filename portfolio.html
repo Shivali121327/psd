@@ -7,6 +7,13 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <style>
+          .carousel-inner > .item > img,
+          .carousel-inner > .item > a > img {
+          width: 70%;
+          margin: auto;
+        }
+        </style>
 
 	</head>
 	<body>
@@ -28,11 +35,41 @@
 			  </div>
       </div>
       <div id="text" class="col-xs-6">
-        <img id="last_img"src="http://i429.photobucket.com/albums/qq11/chansoriyashivali/Page3_zpskupqjxlc.jpg" style="max-width:85%;"></img>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators" style="top:80vh;right:450px;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox" style="top:20vh;">
+      <div class="item active">
+        <img src="http://i429.photobucket.com/albums/qq11/chansoriyashivali/Page_1_zpspyybnmsj.png" alt="first" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="http://i429.photobucket.com/albums/qq11/chansoriyashivali/Page3_zpskupqjxlc.jpg" alt="second" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="http://i429.photobucket.com/albums/qq11/chansoriyashivali/6_zps3d6lg7aa.jpg" alt="third" width="460" height="300">
+      </div>
+
+      <div class="item">
+        <img src="http://i429.photobucket.com/albums/qq11/chansoriyashivali/44e008ab-a99d-4aea-a572-a2e09881842e_zps3btyiqul.jpg" alt="fourth" width="460" height="200">
+      </div>
+    </div>
+
+ 
       </div>
       <script>$('.carousel').carousel({interval: 300})</script>
-        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
       
 	</body>
 </html>
