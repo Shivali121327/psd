@@ -2,8 +2,38 @@
   color: #83888C;
   position: relative;
   top: 10%;  
-  transform: translateY(-10%);
 }
+header.active {
+  left:0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: -12vw;
+    text-align: left;
+    height: 100vh;
+    background-color: #E8A904;
+    z-index: 999;
+    padding-top: 8vw;
+    width: 12vw;
+    transition: left 0.5s ease-in;
+  }
+  
+a {
+      background-color: #E8A904;
+      color:#ffffff;
+      display: block;
+      font-size: 1.2vw;
+      padding: 0.5em 2em;
+      text-decoration: none;
+      transition: all 0.3s ease-in;
+    }
+a:hover {
+      color: #1E2327;
+      padding: 0.5em 1.5em;
+      text-decoration:none;
+  }
 
 button {
 		margin: 1em 20em 0 0;
@@ -64,6 +94,8 @@ hr {
 	max-width: 70%;
 	max-height: 60%;
 	float: left;
+	cursor:pointer;
+	z-index:1000;
 
 }
 
