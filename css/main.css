@@ -11,7 +11,7 @@ header.active {
 header {
     position: absolute;
     top: 0;
-    right: -12vw;
+    left: -12vw;
     text-align: left;
     height: 100vh;
     background-color: #E8A904;
@@ -100,15 +100,6 @@ hr {
 
 }
 
-#leftimg {
-	position: absolute;
-	top: 10%;
-	margin: 0 0 0 30em;
-	padding: 0px;
-	max-height: 50%;
-	max-width:60%;
-}
-
 h3 {
 	margin: 0 8em 0 4.5em;
 	text-align: left;
@@ -120,8 +111,8 @@ p{
 	
 }
 img {
-	max-width: 98%;
-	max-height: 80%;
+	max-width: 90%;
+	max-height: 70%;
 	position: relative;
 	top: 10%;
 	float: left;
