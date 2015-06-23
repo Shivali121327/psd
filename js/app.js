@@ -1,9 +1,11 @@
 $(document).ready(function() {
-  $('img#logo').click(function() {
-    if ($('header').hasClass('active')) {
-        $('header').removeClass('active');
+  $('#logo').click(function() {
+    if ($('#text header').hasClass('active')) {
+        $('#logo').removeClass('fa-times').addClass('fa-circle-o');
+        $('#text header').removeClass('active');
     } else {
-        $('header').addClass('active');    
+        $('#logo').removeClass('fa-circle-o').addClass('fa-times');
+        $('#text header').addClass('active');    
     }
     
   })

@@ -4,6 +4,15 @@
   top: 10%;  
   left:80px;
 }
+
+i{
+  color:#ffffff;
+  z-index:1000;
+  position:absolute;
+  top:10vh;
+  right:500px;
+}
+
 header.active {
   left:0;
 }
@@ -97,6 +106,8 @@ hr {
 	float: left;
 	cursor:pointer;
 	z-index:1000;
+	top:11vh;
+	color:#ffffff;
 
 }
 
