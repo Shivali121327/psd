@@ -97,6 +97,12 @@ hr {
   left:0px;
 }
 
+#myCarousel .carousel-inner .item img,
+#myCarousel .carousel-inner .item a img {
+  width: 79%;
+  margin: auto;
+}
+
 .about {
 		position: relative;
 	  top: 20%;  
